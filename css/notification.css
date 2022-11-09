@@ -106,3 +106,49 @@
 #notification .notification p:last-child {
 	margin-bottom: 0 !important;
 }
+
+/* ================= */
+/*  Modal > Confirm  */
+/* ================= */
+
+#notification .button-confirm {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+#notification .button-confirm button {
+	display: block;
+	width: 45%;
+	height: 35px;
+	border: 2.5px solid white;
+	color: white;
+	background: deepskyblue;
+	font-weight: bold;
+	position: relative;
+	border-radius: 7px;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.37);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.37);
+}
+
+#notification .button-confirm button::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+}
+
+#notification .button-confirm #true::after {
+	content: "Yes";
+}
+
+#notification .button-confirm #false::after {
+	content: "No";
+}
