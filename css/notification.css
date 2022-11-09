@@ -16,7 +16,7 @@
 }
 
 #notification .notification-wrapper {
-	background-image: linear-gradient(to bottom, blue 90px, white 0%);
+	background-image: linear-gradient(to bottom, #0F66CA 90px, white 0%);
 	overflow: hidden;
 	border-radius: 7px;
 	box-shadow: 0 0 10px -6px rgba(0,0,0,.3);
